@@ -19,6 +19,5 @@ class Admin_Sitting_Certificate(admin.ModelAdmin):
     search_fields = ["title"]
 
 
-admin.site.register(Portfolio)
+admin.site.register(Portfolio, Admin_Sitting_Portfolio)
 admin.site.register(Certificate, Admin_Sitting_Certificate)
-admin.site.register(Skills)
